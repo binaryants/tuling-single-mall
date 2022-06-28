@@ -14,7 +14,6 @@ public class StartApp {
     public static void main(String[] args) {
         SpringApplication.run(StartApp.class, args);
         //System.out.println(BCrypt.hashpw("123456"));
-        //测试github
     }
 
 }

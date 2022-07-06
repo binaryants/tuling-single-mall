@@ -13,6 +13,7 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
  */
 @Configuration
 @EnableTransactionManagement
+// @EnableTransactionManagement 开启事务注解
 @MapperScan({"com.tulingxueyuan.mall.modules.*.mapper"})
 public class MyBatisConfig {
     @Bean
